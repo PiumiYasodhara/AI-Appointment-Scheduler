@@ -64,7 +64,7 @@ nav .menu{
 }
 
 .img{
-  background: url('/img/img3.jpg')no-repeat;
+  background: url('../img/img4.jpg')no-repeat;
   width: 100%;
   height: 100vh;
   background-size:cover;
@@ -98,7 +98,7 @@ nav .menu{
 }
 
 .center .sub-title{
-  color:#fff;
+  color:#c6b7b7;
   font-size: 52px;
   font-weight: 600;
 }

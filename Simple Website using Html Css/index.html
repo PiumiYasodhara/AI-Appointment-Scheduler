@@ -10,27 +10,34 @@
   <title>Simple Website Using Html and Css</title>
 </head>
 <body>
+  <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '67ac28d0abd906b7af2be1a5' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
 <nav>
   <div class="menu">
     <div class="logo">
-      <a href="#">Codefreak</a>
+      <a href="#">Schedulie</a>
     </div>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Feedback</a></li>
-  </ul>
+  
 </div>
 </nav>
 <div class="img"></div>
 <div class="center">
-  <div class="title">Create Amazing Websites</div>
-  <div class="sub_title">Pure HTML & CSS Only</div>
+  <div class="title">Welcome to Appointment Schedular</div>
+  <div class="sub_title">Easy, Managable and Quick</div>
   <div class="btns">
-    <button>Learn More</button>
-    <button>Subscribe</button>
+    <button>Get Started</button>
+    <button>Sign In</button>
   </div>
 </div>
 </body>
